@@ -44,5 +44,8 @@ function total() {
         document.getElementById("TCerveja").innerHTML = tcerveja + "L de Cerveja";
     } else {
         document.getElementById("TCerveja").innerHTML = tcerveja + "ml de Cerveja";
+
     };
-};
+
+    document.getElementById("result").style.visibility = "visible"
+}
