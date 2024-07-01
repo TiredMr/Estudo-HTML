@@ -1,14 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: 10px;
-  border: 0.8rem solid transparent;
-  padding: 2rem;
-  border-image: url(weathered-wooden-surface.jpg) 30 round;
-  display: flexbox; */
 }
 
 h1 {
   font-size: 200%;
+}
+
+h3 {
+  text-align: center;
 }
 
 .titulo {
@@ -17,40 +16,43 @@ h1 {
 }
 
 .pagina {
-  scale: 1.01;
-  /* background-image: url(weathered-wooden-surface.jpg); */
   border: 0.8rem solid transparent;
   padding: 2rem;
-  border-image: url(weathered-wooden-surface.jpg) 30 round;
+  border-image: url(superficie-de-madeira-resistida.jpg) 30 round;
   border-image-outset: 0.5rem;
-  display: flexbox;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #b97836 ;
+  background-color: #5e503f ;
   background-clip: border-box;
+  height: 900px;
 }
 
 .calculadora {
   width: 300px;
   height: 200px;
-  box-shadow: 1 0 0em;
-  background: linear-gradient(to bottom right, #a9d0f5, #0080ff);
+  box-shadow: 0 0 1em;
+  background-color: #c6ac8f;
   text-align: center;
 }
 
+input {
+  border-radius: 5px;
+}
+
 button {
-  color: rgb(255, 255, 255);
-  background-color: #0080ff;
+  color: rgb(0, 0, 0);
+  background-color: #eae0d5;
+  border-radius: 5px;
 }
 
 .resultado {
   width: 300px;
   height: 220px;
   box-shadow: 0 0 1em;
-  background: linear-gradient(to bottom right, #a9d0f5, #0080ff);
+  background-color: #c6ac8f;
   position: relative;
   top: 10px;
 }

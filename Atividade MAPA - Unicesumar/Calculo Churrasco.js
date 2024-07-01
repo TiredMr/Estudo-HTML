@@ -47,5 +47,4 @@ function total() {
 
     };
 
-    document.getElementById("result").style.visibility = "visible"
 }
